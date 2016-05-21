@@ -18,7 +18,8 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'carrierwave'
 gem 'carrierwave-base64'
 gem 'carrierwave-postgresql'
-gem "carrierwave-mongoid"
+gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid'
+gem 'mongoid-grid_fs', github: 'ahoward/mongoid-grid_fs'
 gem 'active_model_serializers'
 group :development, :test do
   gem 'rspec-rails', '~> 3.4'
