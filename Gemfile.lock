@@ -195,7 +195,6 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers
   byebug
-  carrierwave
   carrierwave-base64
   carrierwave-mongoid
   carrierwave-postgresql

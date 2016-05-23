@@ -17,8 +17,11 @@
   </div>
 
     <div class="field">
+      <%= image_tag(@book.image_url) if @book.image? %> #загруженая картинка, если присутствует
       <%= f.label :image %><br>
       <%= f.file_field :image %>
+      <%= f.hidden_field :image_cache %> #кешированое изображение
+
     </div>
   <div class="actions">
     <%= f.submit %>

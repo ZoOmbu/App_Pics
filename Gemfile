@@ -15,7 +15,6 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
 
 # ADDED GEMS
-gem 'carrierwave'
 gem 'carrierwave-base64'
 gem 'carrierwave-postgresql'
 gem 'carrierwave-mongoid', :require => 'carrierwave/mongoid'
